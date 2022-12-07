@@ -59,5 +59,8 @@ int main(){
             fprintf(saida, "%s;%5.2f;%5.2f", convidados, total, porPessoa);
         }
     }
+    
+    fclose(entrada);
+    fclose(saida);
 
     }
